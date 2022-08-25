@@ -1,0 +1,16 @@
+.AnimeDetail{
+    background-color: #FABADA;
+    background-image: url(https://www.transparenttextures.com/patterns/diagmonds.png);
+    height: 100vh;
+    display: flex;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+
+    &__item{
+        flex-basis: 100%;
+        height: 446px;
+        margin: 5px;
+        left:50%
+    }
+
+}

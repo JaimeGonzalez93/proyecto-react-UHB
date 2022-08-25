@@ -1,0 +1,28 @@
+nav {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+    & ul {
+      height: 10vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      backdrop-filter: blur(3px);
+      list-style-type: none;
+      background-color: #F17300 ;
+      background-image: url(https://www.transparenttextures.com/patterns/brick-wall.png);
+     
+
+  
+      & a {
+        color: #662E9B;
+        transition: all 0.5s;
+        text-transform: uppercase;
+  
+        &:hover {
+          color: #43BCCD;
+        }
+      }
+    }
+  }
+  
